@@ -22,7 +22,7 @@ then 'Q' to end program
 
 main menu:
 <div><pre>
-Choose option:
+Choose option:<br>
 
   Load DFA: L
   Create DFA: C
