@@ -21,16 +21,16 @@ Can create new DFAs also (up to 9) 'C' in main menu and follow instructions and 
 then 'Q' to end program
 
 main menu:
-
+<div><pre>
   Choose option:
 
   Load DFA: L
   Create DFA: C
   Delete DFA: D
   Quit: Q
-
+</pre></div>
 pre saved DFA:
-
+<div><pre>
   File 1_DFA_Even_as.ser
   File 2_DFA_three_as.ser
   File 3_DFA_BinaryGreaterThanFive.ser
@@ -40,3 +40,4 @@ pre saved DFA:
   File 7_DFA_ThirtyCent_QuaterNickleDime.ser
   File 8_DFA_AnyOneToFive.ser
   File 9_DFA_onlyA.ser
+</pre></div>
