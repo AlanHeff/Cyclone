@@ -5,7 +5,7 @@ Dfa saver/tester
 - Download all files
 - Unzip Dfa.zip
 - Unzip z3.zip
-- Add Cyclone.py to Cyclone-master folder
+- Add Cyclone.py (not included) to Cyclone-master folder
 - run with java -jar Cyc2.jar
 
 To generate strings, load a saved DFA (Enter 'L' in main menu then enter DFA file number).
