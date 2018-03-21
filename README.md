@@ -31,13 +31,13 @@ main menu:
 </pre></div>
 pre saved DFA:
 <div><pre>
-  File 1_DFA_Even_as.ser
-  File 2_DFA_three_as.ser
-  File 3_DFA_BinaryGreaterThanFive.ser
-  File 4_DFA_FiftyCentCoke.ser
-  File 5_DFA_OneThirdPositionFromEnd.ser
-  File 6_DFA_theone.ser
-  File 7_DFA_ThirtyCent_QuaterNickleDime.ser
-  File 8_DFA_AnyOneToFive.ser
-  File 9_DFA_onlyA.ser
+  File 1_DFA_Even_as.ser                       {a,b} Any even number of a's.
+  File 2_DFA_three_as.ser                      {a,b} At least 3 a's.
+  File 3_DFA_BinaryGreaterThanFive.ser         {1,0} Binary numbers > 5.
+  File 4_DFA_FiftyCentCoke.ser                 {t,w,f} Ten,twenty,fifty, make up at least 50 cent.
+  File 5_DFA_OneThirdPositionFromEnd.ser       {0,1} One in third position from end.
+  File 6_DFA_theone.ser                        {a,b} Contains substring abb.
+  File 7_DFA_ThirtyCent_QuaterNickleDime.ser.  {q,n,d} quater, nickle, dime, make up 35c.
+  File 8_DFA_AnyOneToFive.ser                  {1,2,3,4,5} Any string.
+  File 9_DFA_onlyA.ser                         {a} a, nothing else.
 </pre></div>
