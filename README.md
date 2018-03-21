@@ -6,9 +6,10 @@ Dfa saver/tester
 - Unzip Dfa.zip
 - Unzip z3.zip
 - Add Cyclone.py (not included) to Cyclone(or Cyclone-master) folder
-- run with 
+- run with:
 <div><pre>
-java -jar Cyc2.jar</pre></div>
+java -jar Cyc2.jar
+</pre></div>
 
 To generate strings, load a saved DFA (Enter 'L' in main menu then enter DFA file number).
 at Generate strings type 'Y' then enter length of string to be generated and number of strings.
@@ -37,7 +38,7 @@ pre saved DFA:
   File 4_DFA_FiftyCentCoke.ser                 {t,w,f} Ten,twenty,fifty, make up at least 50 cent.
   File 5_DFA_OneThirdPositionFromEnd.ser       {0,1} One in third position from end.
   File 6_DFA_theone.ser                        {a,b} Contains substring abb.
-  File 7_DFA_ThirtyCent_QuaterNickleDime.ser.  {q,n,d} quater, nickle, dime, make up 35c.
+  File 7_DFA_ThirtyCent_QuaterNickleDime.ser.  {q,n,d} quater, nickle, dime, make at least up 35c.
   File 8_DFA_AnyOneToFive.ser                  {1,2,3,4,5} Any string.
   File 9_DFA_onlyA.ser                         {a} a, nothing else.
 </pre></div>
