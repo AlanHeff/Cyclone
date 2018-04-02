@@ -32,13 +32,19 @@ Choose option:<br>
 </pre></div>
 pre saved DFA:
 <div><pre>
-  File 1_DFA_Even_as.ser                       {a,b} Any even number of a's.
-  File 2_DFA_three_as.ser                      {a,b} At least 3 a's.
-  File 3_DFA_BinaryGreaterThanFive.ser         {1,0} Binary numbers > 5.
-  File 4_DFA_FiftyCentCoke.ser                 {t,w,f} Ten,twenty,fifty, make up at least 50 cent.
-  File 5_DFA_OneThirdPositionFromEnd.ser       {0,1} One in third position from end.
-  File 6_DFA_theone.ser                        {a,b} Contains substring abb.
-  File 7_DFA_ThirtyCent_QuaterNickleDime.ser.  {q,n,d} quater, nickle, dime, make at least up 35c.
-  File 8_DFA_AnyOneToFive.ser                  {1,2,3,4,5} Any string.
-  File 9_DFA_onlyA.ser                         {a} a, nothing else.
+File 1_DFA_a^nb.ser                             {a,b} accepts a^nb
+File 2_DFA_ab{a,b}*.ser                         {a,b} accepts ab{a,b}* 
+File 3_DFA_Binary_modFive.ser                   {0,1} accepts binary strings which are a multiple of 5
+File 4_DFA_EvenOnesAndZeros.ser                 {0,1} even number of 1s and even number of 0s
+File 5_DFA_a^n_b^m_c^l.ser                      {a,b,c} a^n b^m c^l
+File 6_DFA_theone.ser                           {a,b} accepts {a,b}*abb
+File 7_DFA_ThirtyCent_QuaterNickleDime.ser      {q,n,d} make up 35c, q=25c n=5c d=10c
+File 8_DFA_awaawa.ser                           {a,b} aw1aaw2a,    w2,w1={a,b}*
+File 9_DFA_startAndEnd-ab.ser                   {a,b} first and last char is the same
+</pre></div>
+
+
+Demorgans Law: 
+<div><pre>
+pythond DemorgansLaw.py
 </pre></div>
