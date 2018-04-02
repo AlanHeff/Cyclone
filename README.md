@@ -1,14 +1,14 @@
 # Cyclone
 Dfa saver/tester
 
-(Works on mac, can't guarentee it will on other OS)
+(Works on mac, and linux)
 - Download all files
 - Unzip Dfa.zip
 - Unzip z3.zip
-- Add Cyclone.py (not included) to Cyclone(or Cyclone-master) folder
 - run with:
 <div><pre>
-java -jar Cyc2.jar
+javac DFA.java
+java DFA
 </pre></div>
 
 To generate strings, load a saved DFA (Enter 'L' in main menu then enter DFA file number).
